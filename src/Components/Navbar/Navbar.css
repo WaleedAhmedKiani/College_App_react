@@ -1,0 +1,119 @@
+.gpt3__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem 5rem;
+    background-color: #3a506b;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.gpt3__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gpt3__navbar-links_logo{
+    margin-right: 2rem;
+}
+.gpt3__navbar-links_logo img {
+    width: 3rem;
+    height: 3rem;
+}
+.gpt3__navbar-links_container{
+    display: flex;
+    
+    
+}
+.gpt3__navbar-sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gpt3__navbar-links_container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-menu_container p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1rem;
+    margin: 0 2rem;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_container button{
+    padding: .5rem 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background: #ff4820;
+}
+.gpt3__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+.gpt3__navbar-menu svg{
+    cursor: pointer;
+}
+.gpt3__navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    padding: 1rem;
+    top: 20px;
+    right: 0;
+    margin-top: .5rem ;
+    min-width: 200px;
+    border-radius: 5px;
+    background: #3A506B;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.gpt3__navbar-menu_container p {
+    margin: 1rem;
+}
+.gpt3__navbar-menu_container-links-sign{
+    display: none;
+}
+
+/* ⁡⁢⁣⁡⁢⁣⁣𝗠𝗲𝗻𝘂 𝗙𝗼𝗿 𝗕𝗶𝗴 𝗦𝗰𝗿𝗲𝗲𝗻⁡ ⁡*/
+@media screen and (max-width: 1050px) {
+    .gpt3__navbar-links_container {
+        display: none;
+    }
+    .gpt3__navbar-menu {
+        display: flex;
+    }
+}
+/* ⁡⁢⁣⁣𝗠𝗲𝗻𝘂 𝗙𝗼𝗿 𝘁𝗲𝗯𝗹𝗲𝘁 𝗗𝗲𝘃𝗶𝗰𝗲𝘀⁡ */
+@media screen and (max-width: 700px) {
+    .gpt3__navbar {
+       padding: 2rem 4rem;
+    }
+    
+   
+ }
+ /* ⁡⁢⁣⁣𝗠𝗲𝗻𝘂 𝗙𝗼𝗿 𝗠𝗼𝗯𝗼 𝗗𝗲𝘃𝗶𝗰𝗲𝘀⁡ */
+ @media screen and (max-width: 550px) {
+    .gpt3__navbar {
+       padding: 2rem ;
+    }
+    .gpt3__navbar-sign {
+        display: none;
+    }
+    .gpt3__navbar-menu_container {
+        top: 20px;
+    }
+   .gpt3__navbar-menu_container-links-sign {
+    display: block;
+   }
+}
