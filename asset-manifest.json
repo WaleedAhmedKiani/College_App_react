@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/College_App_react/static/css/main.20891ac3.css",
+    "main.js": "/College_App_react/static/js/main.7ef9dfc3.js",
+    "static/js/453.ed3810f9.chunk.js": "/College_App_react/static/js/453.ed3810f9.chunk.js",
+    "static/media/program-3.png": "/College_App_react/static/media/program-3.4badb35ba4998eb759f6.png",
+    "static/media/program-1.png": "/College_App_react/static/media/program-1.fd7cdd6a453067306103.png",
+    "static/media/about.png": "/College_App_react/static/media/about.ae79f7c4ba002987bed7.png",
+    "static/media/program-2.png": "/College_App_react/static/media/program-2.72b615ee1f3e9b493416.png",
+    "static/media/gallery-2.png": "/College_App_react/static/media/gallery-2.aea12fd5e52236ab9414.png",
+    "static/media/gallery-1.png": "/College_App_react/static/media/gallery-1.d155a3f004a16d4a79e1.png",
+    "static/media/gallery-4.png": "/College_App_react/static/media/gallery-4.db52a7e21ab6aca477c0.png",
+    "static/media/gallery-3.png": "/College_App_react/static/media/gallery-3.cc599987b9e13cee8fcc.png",
+    "static/media/user-2.png": "/College_App_react/static/media/user-2.b22c59baa927c1be0d2e.png",
+    "static/media/user-3.png": "/College_App_react/static/media/user-3.12915e16ed909bbd9b48.png",
+    "static/media/logo.png": "/College_App_react/static/media/logo.8cf2d4c56dcd4dc1e2af.png",
+    "static/media/user-4.png": "/College_App_react/static/media/user-4.50ce69a0306667eba2c1.png",
+    "static/media/user-1.png": "/College_App_react/static/media/user-1.1f46bb883fe387830efd.png",
+    "index.html": "/College_App_react/index.html",
+    "main.20891ac3.css.map": "/College_App_react/static/css/main.20891ac3.css.map",
+    "main.7ef9dfc3.js.map": "/College_App_react/static/js/main.7ef9dfc3.js.map",
+    "453.ed3810f9.chunk.js.map": "/College_App_react/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20891ac3.css",
+    "static/js/main.7ef9dfc3.js"
+  ]
+}
